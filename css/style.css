@@ -1,0 +1,135 @@
+/*Google Fonts here*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style: none;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+buttton:focus{
+    outline: 0;
+}
+.thime {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    width: 100vh;
+    width: 100%;
+}
+/*section title*/
+.section_title{
+    text-align: center;
+}
+.section_title h2{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #413d4b;
+}
+.section_title p{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #2f2d35;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 18px;
+}
+.section_title p:before{
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 100%;
+    height: 2px;
+    width: 50px;
+    background: #c6c4c9;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    
+}
+/* common css complete*/
+
+
+/*========================
+    WORK AREA CSS
+==========================*/
+.work_area{
+    padding: 63px 0;
+}
+
+
+
+/*========================
+    slide AREA CSS
+==========================*/
+.slide_area{
+    padding: 100px 0;
+}
+.slide_area .slick-dots{
+    text-align: center;
+}
+.slide_area .slick-dots li{
+    display: inline-block;
+}
+.slide_area .slick-dots li button {
+	font-size: 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid red;
+	background: transparent;
+	margin: 0 5px;
+}
+.slide_area .slick-dots li.slick-active button{
+    background: red;
+}
+
+.icon {
+	font-size: 80px;
+	text-align: center;
+	display: ;
+}
+.icon i {
+	background: linear-gradient(58deg, rgba(235,46,80,1) 25%, rgba(220,100,219,1) 49%, rgba(254,255,128,1) 81%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+

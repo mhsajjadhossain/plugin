@@ -1,0 +1,252 @@
+/*Extra large devices (large desktops, 1200px and up)*/ 
+@media (min-width: 1200px) { ... }
+
+
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+/*Medium devices (tablets, 768px and up)*/ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.navbar-nav {
+	background: #444;
+    text-align: center;
+    margin-top: 25px;
+}
+    
+   .banner-aria .banner-text h1 {
+	font-size: 103px;
+	line-height: 122px;
+	padding-bottom: 24px;
+	margin-bottom: 35px;
+} 
+    
+    .sengle-slide .slider-text p {
+	font-size: 19px;
+	
+}
+   
+    
+    .slider-img {
+	padding: 33px 44px;
+}
+    
+    
+    .team-social a {
+	width: 43px;
+	
+}
+    .team-social {
+	
+	width: 79%;
+}
+    
+    .footer-blog h3 {
+	
+	padding-top: 28px;
+}
+    
+    
+    
+
+
+}
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .single-bottom-img {
+	width: 100%;
+}
+    
+    
+    .navbar-nav {
+	background: #444;
+    text-align: center;
+    margin-top: 25px;
+}
+    
+    .banner-aria .banner-text h3 {
+	
+	font-size: 64px;
+	
+}
+    
+    
+   .banner-aria .banner-text h1 {
+	font-size: 86px;
+	line-height: 111px;
+	padding-bottom: 13px;
+	margin-bottom: 29px;
+} 
+    
+    .count {
+	padding-bottom: 20px;
+}
+    
+    .about-aria .about-text-1 {
+	margin-bottom: 40px;
+}
+    
+    
+    .slider-img {
+	padding: 30px 201px;
+}
+    
+    .sengle-slide .slider-text p {
+	font-size: 20px;
+	margin-top: 14px;
+}
+    
+    .left-arrows-icon {
+	margin-top: 39px;
+}
+    
+    .right-arrows-icon {
+	margin-top: 39px;
+}
+    
+    .single-bottom-img {
+	margin-top: 20px;
+}
+    
+    .team-social {
+	width: 60%;
+}
+    
+    
+    
+    
+    .sengle-slide .slider-text p {
+	font-size: 19px;
+	
+}
+   
+    
+    .slider-img {
+	padding: 35px 205px;
+}
+    
+    
+    .team-social a {
+	width: 43px;
+	
+}
+    .team-social {
+	width: 70%;
+}
+    
+    .footer-blog h3 {
+	
+	padding-top: 28px;
+}
+    
+    
+    
+    
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .navbar-nav {
+	background: #444;
+    text-align: center;
+    margin-top: 25px;
+}
+    
+    .banner-aria .banner-text h3 {
+	font-size: 34px;
+	
+}
+    
+   .banner-aria .banner-text h1 {
+	font-size: 42px;
+	line-height: 49px;
+	padding-bottom: 14px;
+	margin-bottom: 27px;
+}
+    
+    .banner-bottom .banner-bottom-text p {
+	
+	font-size: 13px;
+	
+}
+    
+    .banner-bottom .banner-bottom-text h2 {
+	padding-bottom: 29px;
+	margin-bottom: 35px;
+}
+    
+    .about-aria .about-text-1 {
+	margin-bottom: 28px;
+}
+    
+    
+    
+   .sengle-slide .slider-text p {
+	font-size: 15px;
+}
+   
+    
+    .slider-img {
+	padding: 30px 97px;
+}
+    
+    
+    .team-social a {
+	width: 52px;
+}
+    .team-social {
+	width: 70%;
+}
+    .slider-bottom .slider-text p {
+	font-size: 13px;
+	
+}
+    
+    .slider-bottom .slider-text h2 {
+	padding-bottom: 19px;
+	margin-bottom: 30px;
+}
+    
+    .footer-img {
+	text-align: center;
+}
+    
+    .footer-information p {
+	font-size: 16px;
+	
+	text-align: center;
+}
+    
+    .sub-from button {
+	padding: 12px 11px;
+}
+    
+    .count {
+	padding-bottom: 20px;
+}
+    
+    
+    .footer-blog h3 {
+	
+	padding-top: 28px;
+}
+
+
+
+}
+
+
+
+
